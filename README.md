@@ -6,6 +6,10 @@ An end-to-end data analytics project that analyzes customer reviews from Blinkit
 
 ## 📊 Dashboard Preview
 
+This project features a **4-page interactive Power BI dashboard** . The complete dashboard availabe in the `Dashboard` folder.
+
+Preview of one dashboard page:
+
 ![Quick Commerce Customer Experience Dashboard](Screenshots/Quick-Commerce-Page3.png)
 
 ---
