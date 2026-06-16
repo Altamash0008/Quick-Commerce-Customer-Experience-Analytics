@@ -33,40 +33,28 @@ Matplotlib    Data Visualization
 
 ## 📂 Project Workflow
 
+```text
 Raw Customer Reviews
-        │
-        |
-
+        ↓
 Python
-    -- Data Cleaning
-    -- Data Preprocessing
-    -- Sentiment Analysis
-    -- Complaint Categorization
-    -- Exploratory Data Analysis
-
-        │
-        |
-
+  • Data Cleaning
+  • Data Preprocessing
+  • Sentiment Analysis
+  • Complaint Categorization
+  • Exploratory Data Analysis (EDA)
+        ↓
 Clean Dataset
-        │
-        |
-
+        ↓
 Power BI
-    -- Data Modeling
-    -- Power Query
-    -- DAX Measures
-    -- Interactive Dashboard
-
-        │
-        |
-
+  • Data Modeling
+  • Power Query
+  • DAX Measures
+  • Interactive Dashboard
+        ↓
 Business Insights
-
-        │
-        |
-
+        ↓
 Strategic Recommendations
-
+```
 
 
 # 📊 Dashboard Pages
