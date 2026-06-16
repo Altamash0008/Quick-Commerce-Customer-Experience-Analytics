@@ -1,149 +1,114 @@
-##  Quick Commerce Customer Experience Analytics
+# 🛒 Quick Commerce Customer Experience Analytics
 
-An end-to-end Customer Experience Analytics project built using **Python** and **Power BI** to analyze customer reviews from leading quick-commerce platforms. This project transforms raw review data into actionable business insights through data cleaning, exploratory data analysis (EDA), sentiment analysis, and an interactive Power BI dashboard.
+An end-to-end data analytics project that analyzes customer reviews from Blinkit, Instamart, and Zepto to understand customer sentiment, identify common complaints, and generate business insights using Python and Power BI.
 
+---
 
-## 📌 Project Overview
+## 📊 Dashboard Preview
 
-Customer reviews provide valuable insights into customer satisfaction, operational issues, and service quality. This project analyzes thousands of customer reviews to identify common complaints, sentiment trends, platform performance, and key business improvement opportunities.
+![Quick Commerce Customer Experience Dashboard](Screenshots/Quick_Commerce-Page4.png)
 
-The project follows a complete analytics pipeline from raw data preprocessing to business intelligence reporting.
+---
 
+## 🎯 Project Objectives
 
-## 🎯 Objectives
-
-- Clean and preprocess raw customer review data.
-- Perform Exploratory Data Analysis (EDA).
-- Analyze customer sentiment.
-- Categorize customer complaints.
+- Analyze customer sentiment across quick commerce platforms.
+- Identify the most common customer complaints.
+- Compare platform performance using customer reviews.
 - Build an interactive Power BI dashboard.
-- Generate actionable business recommendations.
+- Provide data-driven business recommendations.
 
+---
 
 ## 🛠️ Tech Stack
 
-Tool                  Purpose 
-Python        Data Cleaning & Analysis 
-Pandas        Data Manipulation 
-Power BI      Dashboard Development 
-Power Query   Data Transformation 
-DAX           KPI & Measures 
-Matplotlib    Data Visualization 
+| Category | Tools |
+|----------|-------|
+| Language | Python |
+| Libraries | Pandas, scikit-learn, google-play-scraper |
+| Data Visualization | Power BI |
+| Power BI Features | Power Query, DAX |
 
+---
 
-## 📂 Project Workflow
+## 🔄 Project Workflow
 
 ```text
-Raw Customer Reviews
-        ↓
-Python
-  • Data Cleaning
-  • Data Preprocessing
-  • Sentiment Analysis
-  • Complaint Categorization
-  • Exploratory Data Analysis (EDA)
-        ↓
-Clean Dataset
-        ↓
-Power BI
-  • Data Modeling
-  • Power Query
-  • DAX Measures
-  • Interactive Dashboard
-        ↓
+Review Collection
+        │
+        ▼
+Data Cleaning & Preprocessing
+        │
+        ▼
+EDA & Sentiment Analysis
+        │
+        ▼
+Complaint Categorization
+        │
+        ▼
+Power BI Dashboard
+        │
+        ▼
 Business Insights
-        ↓
-Strategic Recommendations
 ```
 
+---
 
-# 📊 Dashboard Pages
+## 📊 Dataset
 
-## 1️⃣ Executive Overview
+- Source: Google Play Store Reviews
+- Platforms: Blinkit, Instamart, Zepto
+- Data collected using `google-play-scraper`
+- Includes ratings, review text, review date, and other metadata
 
-- Customer Satisfaction KPIs
-- Rating Distribution
-- Sentiment Distribution
-- Platform Comparison
-- Overall Business Summary
+---
 
-## 2️⃣ Customer Review Analysis
-
-- Complaint Categories
-- Platform-wise Complaint Analysis
-- Positive & Negative Reviews
-- Word Cloud
-- Customer Experience Breakdown
-
-## 3️⃣ Business Insights
-
-- Platform Performance Comparison
-- Customer Pain Points
-- Rating Trends
-- Sentiment Insights
-- Key Business Findings
-
-## 4️⃣ Recommendations
-
-Strategic recommendations based on the dashboard insights, including:
-
-- Improve delivery speed
-- Strengthen customer support
-- Enhance product quality
-- Reduce order inaccuracies
-- Monitor customer feedback continuously
-
-
-## 📈 Key Insights
-
-- Delivery delays are among the most frequent customer complaints.
-- Customer support quality significantly impacts overall satisfaction.
-- Positive reviews are primarily associated with fast delivery and product quality.
-- Negative reviews are concentrated around delayed deliveries and incorrect orders.
-- Platform-wise analysis highlights differences in customer experience across quick-commerce providers.
-
-
-## 🚀 How to Run
-
-### Clone the Repository
+## ▶️ How to Run
 
 ```bash
+# Clone the repository
 git clone https://github.com/Altamash0008/Quick-Commerce-Customer-Experience-Analytics.git
-```
 
-### Install Dependencies
+# Navigate to the project
+cd Quick-Commerce-Customer-Experience-Analytics
 
-```bash
+# Install dependencies
 pip install -r requirements.txt
+
+# Run data preparation file
+python Scripts/Data_preparation.py
+
+# Run exploratory data analysis file
+python Scripts/eda.py
+
+# Run complaint analysis file
+python Scripts/complaint_analysis.py
 ```
 
-### Run Python Scripts
+---
 
-```bash
-python data_preparation.py
-python complaint_analysis.py
-python eda.py
-```
+## 📈 Dashboard Highlights
 
-### Open Dashboard
+- Customer sentiment analysis
+- Platform comparison
+- Rating distribution
+- Complaint category analysis
+- Business insights and recommendations
 
-Open the `.pbix` file using **Microsoft Power BI Desktop**.
+---
 
+## 💡 Key Insights
 
-## 📌 Future Improvements
+- Compared customer sentiment across platforms.
+- Identified major complaint categories from reviews.
+- Analyzed rating distribution and review trends.
+- Built an interactive dashboard for business decision-making.
+- Suggested recommendations to improve customer experience.
 
-- SQL database integration
-- Automated ETL pipeline
-- Real-time dashboard updates
-- Machine Learning-based sentiment classification
-- Customer churn prediction
+---
 
-
-## 👨‍💻 Author
+## 👤 Author
 
 **Mohammad Altamash**
 
-- GitHub: https://github.com/Altamash0008
-
-
-## ⭐ If you found this project useful, consider giving it a Star!
+GitHub: https://github.com/Altamash0008
