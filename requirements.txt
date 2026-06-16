@@ -1,0 +1,3 @@
+Pandas
+google-play-scraper
+scikit-learn
