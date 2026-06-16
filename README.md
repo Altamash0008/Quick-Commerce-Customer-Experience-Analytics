@@ -6,7 +6,7 @@ An end-to-end data analytics project that analyzes customer reviews from Blinkit
 
 ## 📊 Dashboard Preview
 
-![Quick Commerce Customer Experience Dashboard](Screenshots/Quick_Commerce-Page4.png)
+![Quick Commerce Customer Experience Dashboard](Screenshots/Quick-Commerce-Page3.png)
 
 ---
 
